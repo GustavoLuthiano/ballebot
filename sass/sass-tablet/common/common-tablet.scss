@@ -1,0 +1,54 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+  .logo-header{
+    width: 120px;
+  }
+
+  .nav-header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+  }
+}
+
+
+.main-content{
+  p{
+      font-size: 20px;
+      padding: 20px;
+  }
+  .content1{
+    .info-content1{
+      .title-content1{
+        padding-top: 30px;
+        font-size: 50px;
+      }
+      .btn-content1{
+        width: 170px;
+        font-size: 20px;
+      }
+    }
+
+    .img-content1{
+      width: 450px;
+    }
+  }
+
+  .content2{
+    .title-content2{
+      font-size: 30px;
+      width: 400px;
+    }
+  }
+
+  
+}
+.footer{
+    .img-footer{
+      padding: 20px;
+    }
+  }

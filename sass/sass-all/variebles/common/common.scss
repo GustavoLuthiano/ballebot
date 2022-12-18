@@ -1,0 +1,128 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: $generic-font;
+}
+body{
+  background-image: linear-gradient(45deg, $dark-brown-color, $light-brown-color);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  .logo-header{
+    width: 90px;
+    padding: 10px;
+  }
+
+  .nav-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .anchor-nav{
+    color: $white-color;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+hr{
+  height: 1px;
+  background-color: $white-color;
+}
+
+.main-content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: $white-color;
+
+  .content1{
+
+    .title-content1{
+      font-family: $featured-font;
+      font-weight: 400;
+      font-size: 36px;
+    }
+
+    .paragraph-content1{
+      max-width: 100%;
+      padding: 10px 5px;
+    }
+
+    .btn-content1{
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 15px;
+      background-color: $beige-color;
+      border: 2px solid $dark-brown-color;
+      box-shadow: 2px 2px 5px #2f23258b;
+    
+      &:hover{
+        background-color: $white-color;
+        transition: .3s;
+      }
+    }
+
+    .img-content1{
+      padding: 50px 10px;
+      width: 280px;
+    }
+  }
+
+
+  .content2{
+    
+    .title-content2{
+      margin: auto;
+      width: 280px;
+      text-align: center;
+      border-top: 1px solid $white-color;
+      padding: 50px 0px;
+      font-family: $featured-font;
+      font-weight: 400;
+    }
+
+    .paragraph-content2{
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.footer{
+
+  .img-footer{
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    padding: 10px;
+  }
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: $light-brown-color;
+  border: 1px solid $dark-brown-color;
+}
+
+::-webkit-scrollbar-track{
+  background-color: $beige-color; 
+  border: 1px solid $dark-brown-color;
+}
